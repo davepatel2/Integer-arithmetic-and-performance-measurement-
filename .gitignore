@@ -1,0 +1,7 @@
+*.o
+*.out
+mmmul
+mmmul-c
+mmmul-cO2
+mm
+.swp*
