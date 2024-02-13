@@ -1,6 +1,6 @@
 CXX = g++
 CC = gcc
-CXXFLAGS = -ggdb -Wall -O2 
+CXXFLAGS = -ggdb -g -Wall -O2 
 CFLAGS = -ggdb -Wall 
 CXXSRCS = matmul-driver.cpp 
 ASRCS1 = matmul.s intmul.s intadd.s 
