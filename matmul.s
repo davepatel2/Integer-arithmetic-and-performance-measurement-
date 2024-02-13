@@ -181,7 +181,7 @@ ldr x22, [sp, 40]
 ldr x23, [sp, 48]
 ldr x24, [sp, 56]
 ldr x25, [sp, 64]
-ldr x26, [sp, 72] // i
-ldr x27, [sp, 80] // j
-ldr x28, [sp, 88] // k
+ldr x26, [sp, 72] // A
+ldr x27, [sp, 80] // B
+ldr x28, [sp, 88] // C
 ldp x29, x30, [sp], 128
