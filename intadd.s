@@ -16,6 +16,16 @@
     */
 
 intadd:
-    add   w0, w0, w1
+       
+    mov x3, x0
+    mov x2, x0
+addloop:
+    eor x3, x2, x1
+    and x2, x2, x1
+    lsl x2, x2, #1
+    mov x1, x3
+    cbnz x2, addloop
+    mov x0, x3
     ret
+    
 
